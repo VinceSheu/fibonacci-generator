@@ -19,6 +19,10 @@ class App extends Component {
     if (value <= 0) {
       error = 'Please enter a non-negative, non-zero number';
     } 
+    if (value > 1476) {
+      error = 'The result would surpass the largest number represented in javascript'
+    }
+
     this.setState({ value, error });
   }
 
@@ -29,7 +33,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Fibonacci Generator</h1>
-        <p>Please enter the number of fibonacci numbers you would like to generate</p>
+        <p>Please enter the number of fibonacci numbers you would like to generate (up to 1476)</p>
         <input className="input-field" type="number" value={inputValue} onChange={this.onChange} />
         <button className="submit-btn" onClick={this.handleSubmit} disabled={loading || error}> Submit </button>
         <div className="error-msg">{error}</div>

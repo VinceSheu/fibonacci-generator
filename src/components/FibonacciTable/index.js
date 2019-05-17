@@ -17,7 +17,7 @@ function FibonacciTable(props) {
       <tbody>
       {
         fibonacciArray.map( (fibonacciNumber, index) => (
-          <tr> 
+          <tr key={fibonacciNumber}> 
             <td className="left-column">{index}</td>
             <td>{fibonacciNumber}</td>
           </tr>
