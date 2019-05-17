@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fibonacci-generator/static/css/main.df9d6f0c.chunk.css",
+    "main.js": "/fibonacci-generator/static/js/main.385ef6f4.chunk.js",
+    "main.js.map": "/fibonacci-generator/static/js/main.385ef6f4.chunk.js.map",
+    "runtime~main.js": "/fibonacci-generator/static/js/runtime~main.32437f7f.js",
+    "runtime~main.js.map": "/fibonacci-generator/static/js/runtime~main.32437f7f.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/fibonacci-generator/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/fibonacci-generator/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/fibonacci-generator/index.html",
+    "precache-manifest.0d792191d240f5346a6ebcd2b42d33eb.js": "/fibonacci-generator/precache-manifest.0d792191d240f5346a6ebcd2b42d33eb.js",
+    "service-worker.js": "/fibonacci-generator/service-worker.js",
+    "static/css/main.df9d6f0c.chunk.css.map": "/fibonacci-generator/static/css/main.df9d6f0c.chunk.css.map"
+  }
+}
