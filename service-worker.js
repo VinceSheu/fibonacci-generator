@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/fibonacci-generator/precache-manifest.8f51451de3234480f8439c79d42f9ab1.js"
+  "/fibonacci-generator/precache-manifest.a59d23ca28a947b8689d07a678fb3af8.js"
 );
 
 self.addEventListener('message', (event) => {
